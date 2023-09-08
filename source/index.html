@@ -1,12 +1,143 @@
 <!DOCTYPE html>
-< class="page" lang="ru">
+<class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
-    <title>Trim</title>
+    <title>Voltstream</title>
   </head>
-  <body>
+  <body class="page">
+    <header class="header">
+      <div class="header__wrapper">
+        <a class="header__logo" href="#">
+          <img class="header__logo-img" src="./img/head-logo.svg" width="146px" height="50px" alt="Main logo">
+        </a>
+        <nav class="navigation">
+          <button class="navigation__button"></button>
+          <div class="navigation__wrapper">
+            <ul class="navigation-list">
+              <li class="navigation-list__point">О нас</li>
+              <li class="navigation-list__point">Этапы</li>
+              <li class="navigation-list__point">Отзывы</li>
+              <li class="navigation-list__point">Наши работы</li>
+              <li class="navigation-list__point">Вопрос ответ</li>
+            </ul>
+          </div>
+        </nav>
+        <div class="header-info">
+          <img src="/img/head-phone-logo.svg">
+          <p class="header-info_number">8 800 555 44 80</p>
+          <p class="header-info_description">Заказать обратный звонок</p>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main__wrapper">
+        <section class="cost-calc">
+          <h2 class="cost-calc__title">Рассчитаем стоимость <span class="regular">комплектующих и установки</span> системы заземления <span class="regular">за 1 день</span></h2>
+          <p class="cost-calc__description">Получите подробную смету ответив
+            всего на 5 простых вопросов</p>
+          <button class="red-button">Получить расчет</button>
+          <img class="cost-calc__image" src="./img/cost-calc.png" width="420px" height="298px" alt="cost calculation">
+          <div class="advantages">
+            <div class="advantages__wrapper">
+              <ul class="advantages__list">
+                <li class="advantages__point">
+                  <span class="advantages__lines"></span>
+                  <div class="advantages__point__card">
+                    <span class="advantages__icon"><img src="./img/star-icon.svg"></span>
+                    <p class="advantages__description">Собственное производство</p>
+                  </div>
+                </li>
+                <li class="advantages__point">
+                  <span class="advantages__lines"></span>
+                  <div class="advantages__point__card">
+                    <span class="advantages__icon"><img src="./img/cart-icon.svg"></span>
+                    <p class="advantages__description">Наличие товара на складе</p>
+                  </div>
+                </li>
+                <li class="advantages__point">
+                  <span class="advantages__lines"></span>
+                  <div class="advantages__point__card">
+                    <span class="advantages__icon"><img src="./img/doc-icon.svg"></span>
+                    <p class="advantages__description">Выдаем всю документацию</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="projects">
+          <h2 class="projects__name">Специализируемся на установке заземления по направлениям</h2>
+          <div class="projects__card card-view">
+            <img class="card-view__image" src="./img/card-1.png" alt="">
+            <p class="card-view__name">Торговые центры</p>
+            <p class="card-view__address">Садовый центр Дарвин, OBI, Тц Вешняки, ТЦ Любимый Мичуринский проспект</p>
+          </div>
+          <div class="projects__card card-view">
+            <img class="card-view__image" src="./img/card-2.png" alt="">
+            <p class="card-view__name">Частные дома</p>
+            <p class="card-view__address">Установили заземления и молние защиту для более 2000 домов</p>
+          </div>
+          <div class="projects__card card-view">
+            <img class="card-view__image" src="./img/card-3.png" alt="">
+            <p class="card-view__name">Складские комплексы</p>
+            <p class="card-view__address">Установили заземление и молниезащиту для более 100 складских комплексов</p>
+          </div>
+          <div class="projects__card card-view">
+            <img class="card-view__image" src="./img/card-4.png" alt="">
+            <p class="card-view__name">Производственные здания</p>
+            <p class="card-view__address">Завод Renault, Завод Майский Чай, Завод Хохланд Рус, Завод KERAMA MARAZZI</p>
+        </section>
+        <section class="process">
+          <h2 class="process__name">Выполняем весь цикл работ от расчета до оформления документации</h2>
+          <ul class="process__list work-step">
+            <li class="work-step__point">
+              <p class="work-step__discription">Предварительный расчет материалов и стоимости работ</p>
+              <span class="work-step__number">01</span>
+            </li>
+            <li class="work-step__point">
+              <p class="work-step__discription">Бесплатный выезд инженера на замер</p>
+              <span class="work-step__number">02</span>
+            </li>
+            <li class="work-step__point">
+              <p class="work-step__discription">Заключение договора</p>
+              <span class="work-step__number">03</span>
+            </li>
+            <li class="work-step__point">
+              <p class="work-step__discription">Предоплата</p>
+              <span class="work-step__number">04</span>
+            </li>
+            <li class="work-step__point">
+              <p class="work-step__discription">Выполнение работ</p>
+              <span class="work-step__number">05</span>
+            </li>
+            <li class="work-step__point">
+              <p class="work-step__discription">Оплата и выдача исполнительной документации</p>
+              <span class="work-step__number">06</span>
+            </li>
+          </ul>
+        </section>
+        <section class="review">
+          <h2 class="review__name">Отзывы о работе с нами</h2>
+          <div class="slider">
+            <div class="slider__wrapper">
+              <div class="slider__line">
+                <img src="./img/certificate-1.png" alt="certificate">
+                <img src="./img/certificate-2.png" alt="certificate">
+                <img src="./img/certificate-3.png" alt="certificate">
+                <img src="./img/certificate-4.png" alt="certificate">
+                <img src="./img/certificate-5.png" alt="certificate">
+              </div>
+            </div>
+            <button class="slider__next">Next</button>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer"></footer>
 
+    <script src="./js/script.js"></script>
   </body>
+
 </html>
